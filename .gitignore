@@ -1,0 +1,6 @@
+/vendor/
+/src/vendor/
+.idea/
+.sass-cache/
+/resource/js/bower_components/
+/node_modules

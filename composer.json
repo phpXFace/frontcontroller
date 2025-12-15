@@ -1,0 +1,28 @@
+{
+    "name": "phpxface/frontcontroller",
+    "type": "library",
+    "description": "Front Controller for phpXFace",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christian Pergande"
+        }
+    ],
+    "minimum-stability": "dev",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url":  "ssh://git@github.com/phpxface/core.git"
+    },{
+      "type": "vcs",
+      "url":  "ssh://git@github.com/phpxface/auth.git"
+    }
+  ],
+	"autoload": {
+		"psr-0": { "phpXFace": "src/" }
+	},
+    "require": {
+	    "phpxface/core": "dev-master",
+	    "phpxface/auth": "dev-master"
+    }
+}
