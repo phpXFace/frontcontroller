@@ -51,7 +51,7 @@ class FrontController extends Injector implements IFrontController {
 	private $scope = null;
 	
 	/**
-	 * @PXF_Property("auth.saasrack.login.endpoint")
+	 * @PXF_Property("auth.myapp.login.endpoint")
 	 * @var string
 	 */
 	private $loginEndpoint = null;
