@@ -6,6 +6,14 @@
 
 Small, opinionated Front Controller for phpXFace applications. It wires routing, dispatching (REST and view), CORS preflight handling, and scope‑based authentication into a single entry point you can drop into your `index.php`.
 
+## Project status
+
+This package is a small building block within the phpXFace ecosystem.
+
+- Origin: started as a personal side project in 2013 to explore annotations, DI, modular apps, and an XML‑driven UI.
+- Today: published openly for anyone curious about these ideas. Expect legacy code and APIs.
+- Maintenance: no longer maintained by the original author. Issues and PRs may not be reviewed or merged. Please consider forking if you need changes.
+
 ## Features
 
 - Single entry point to handle every HTTP request
@@ -137,15 +145,6 @@ class Customer extends Injector implements PXFService {
     }
 }
 ```
-
-## Project status
-
-This package is a small building block within the phpXFace ecosystem.
-
-- Origin: started as a personal side project in 2013 to explore annotations, DI, modular apps, and an XML‑driven UI.
-- Today: published openly for anyone curious about these ideas. Expect legacy code and APIs.
-- Maintenance: no longer maintained by the original author. Issues and PRs may not be reviewed or merged. Please consider forking if you need changes.
-
 
 Contributing
 ------------
